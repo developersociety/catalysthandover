@@ -7236,6 +7236,10 @@ input[type="checkbox"]:checked+label {
     color: green;
 }
 
+.footer a span {
+    display: none;
+}
+
 #content.pdf {
     padding: 30px;
     width: 800px;
