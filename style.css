@@ -7248,6 +7248,8 @@ input[type="checkbox"]:checked+label {
 #content.pdf .card {
     padding: 0;
     margin: 0;
+    box-shadow: none;
+    background: none;
 }
 
 #content.pdf button, #content.pdf label:before {
