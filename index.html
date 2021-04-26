@@ -46,7 +46,7 @@
                             <li>The Catalyst team has access to the source code, documentation and other design assets to ensure that the solution you built can easily be reused by other organisations.</li>
                             <li>You’ve met the ‘Definition of Done’ as stated in your contract at the beginning of the project.</li>
                         </ul>
-                        <p>Once you’ve gone through the checklist, <b>please click the button send us the PDF</b>. If you have your own handover document and it covers the points in our checklist, feel free to use that instead.<br />Any
+                        <p>Once you’ve gone through the checklist, <b>please upload the PDF to Ochre</b>. If you have your own handover document and it covers the points in our checklist, feel free to use that instead.<br />Any
                             questions?<br /> Send them over to your delivery manager and we’ll reply asap.</p>
                     </div>
                     <div class="col-lg-6 col-md-4 col-sm-12 w-clearfix"><img src="wfh_6.svg" loading="lazy" alt="Handover moment" class="image-7 header-pic story-header-pic"></div>
@@ -63,20 +63,25 @@
                             <h2>The Checklist</h2>
                             <p><label for="project">Project: </label><input id="project" name="project" type="text" value="SL-30"></p>
                             <p>As part of your handover, we’re asking you to confirm the following:</p>
+
                             <div class="card mb30"><input type="checkbox" id="cb1"><label for="cb1">You’ve met the Definition of Done as stated in your Catalyst agreement.</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb2"><label for="cb2">You’ve created a handover README/documentation/user manual and shared it with your charity and connector</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb3"><label for="cb3">You’ve given a final demo of the solution you’ve developed to your charity </label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb4"><label for="cb4">You’ve trained members of the charity team to maintain/update the solution and/or ensure they can carry on development work</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb5"><label for="cb5">You’ve outlined any ongoing costs for your charity to maintain the solution developed</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb6"><label for="cb6">You’ve created a roadmap outlining clear next steps for your charity </label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb7"><label for="cb7">You’ve shared any final design assets (e.g. wireframes, user research personas, click through prototypes) with your charity and Catalyst connector</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb8"><label for="cb8">You’ve shared the source code repository with your charity and Catalyst connector</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb9"><label for="cb9">You’ve taken note of any existing bugs and included them in your handover documentation</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb10"><label for="cb10">You’ve shared your QA/Testing scripts with your charity and Catalyst connector</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb11"><label for="cb11">You’ve applied an appropriate Open Source license to the source code repository (LGPL preferred)</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb12"><label for="cb12">You’ve created clear documentation for spinning the solution up locally/in staging/in production</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb13"><label for="cb13">You’ve created a list of current software dependencies</label></div>
-                            <div class="card mb30"><input type="checkbox" id="cb14"><label for="cb14">You’ve made sure that the repository has no secrets or keys in current or previous commits</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb2"><label for="cb2">You’ve given a final demo of the solution you’ve developed, and shared the recording of the demo on Ochre</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb3"><label for="cb3">You’ve shared any final design assets (e.g. wireframes, user research personas, click through prototypes) through Ochre, or in the repository</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb4"><label for="cb4">You’ve shared the source code repository with Catalyst</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb5"><label for="cb5">You’ve shared your QA/Testing scripts with  Catalyst connector, or the tests live in the repository and how to run tests is explained in the documentation</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb6"><label for="cb6">You’ve applied an appropriate Open Source license to the source code repository (LGPL preferred)</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb7"><label for="cb7">You’ve made sure that the repository has no secrets or keys in current or previous commits</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb8"><label for="cb8">You've created an OpenAPI spec for the APIs you've built in the project, stored in the repository</label></div>
+
+                            <div class="card mb30"><input type="checkbox" id="cb9"><label for="cb9">You’ve created externally facing markdown documentation and included that in your repository</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb10"><label for="cb10">You've added to the documentation how to install/spin-up a local instance of the solution, in steps a junior developer could follow.</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb11"><label for="cb11">You’ve created clear documentation for spinning the solution up in staging and in production</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb12"><label for="cb12">You've written common use-case examples of using any APIs you've built into your documentation</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb13"><label for="cb13">You’ve taken note of any existing bugs and included them in your handover documentation, ideally creating issues in the repository</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb14"><label for="cb14">You've documented how users are able to leave feedback or create issues</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb15"><label for="cb15">You’ve created a list of current software dependencies in the documentation, referencing links to install documentation for those dependencies</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb16"><label for="cb16">You’ve outlined any third-party dependencies and ongoing costs to maintain the solution developed in Ochre</label></div>
+                            <div class="card mb30"><input type="checkbox" id="cb17"><label for="cb17">You’ve created a roadmap outlining clear next steps for the project as a backlog, ideally alongside the repository, shared via Ochre</label></div>
 
                             <button onclick="generate();" class="btn btn-blue w-button">Generate PDF</button>
                         </div>
